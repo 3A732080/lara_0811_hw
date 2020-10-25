@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NewsController;
+use App\Http\Controllers\AboutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,13 +14,18 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/',[
+    'uses'=>'HomeController@index',
+    'as'=>'/',
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/about', function () {
-    return view('about');
-});
-Route::get('/news', function () {
-    return view('news');
-});
+]);
+Route::get('/about',[
+    'uses'=>'AboutController@index',
+    'as'=>'about',
+
+]);
+Route::get('/news',[
+    'uses'=>'NewsController@index',
+    'as'=>'news',
+
+]);

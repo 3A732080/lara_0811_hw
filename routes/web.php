@@ -14,18 +14,9 @@ use App\Http\Controllers\AboutController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/',[
-    'uses'=>'HomeController@index',
-    'as'=>'/',
+Route::get('/',[HomeController::class,'index'])->name('home.index');
 
-]);
-Route::get('/about',[
-    'uses'=>'AboutController@index',
-    'as'=>'about',
+Route::get('/about',[AboutController::class,'index'])->name('about.index');
 
-]);
-Route::get('/news',[
-    'uses'=>'NewsController@index',
-    'as'=>'news',
+Route::get('/news',[NewsController::class,'index'])->name('news.index');
 
-]);

@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1fcc548c-a4da-413e-8bca-a89bac69f4e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/about.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/news.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,12 +136,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tiffa\Desktop\wagon\uwamp\www\lara_0811_hw" />
       <recent name="C:\Users\tiffa\Desktop\wagon\uwamp\www\lara_0811_hw\app\Http\Controllers" />
       <recent name="C:\Users\tiffa\Desktop\wagon\uwamp\www\lara_0811_hw\resources\views" />
     </key>
@@ -168,7 +163,9 @@
       <updated>1603639006587</updated>
       <workItem from="1603639007713" duration="3450000" />
       <workItem from="1603642564895" duration="2415000" />
-      <workItem from="1603645101015" duration="428000" />
+      <workItem from="1603645101015" duration="2248000" />
+      <workItem from="1604118515325" duration="4020000" />
+      <workItem from="1607364952806" duration="218000" />
     </task>
     <servers />
   </component>
